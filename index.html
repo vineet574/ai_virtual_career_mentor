@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Career Mentor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Welcome to the AI-Powered Career Mentor</h1>
+
+    <form action="/profile" method="post">
+        <label for="skills">Enter your skills:</label>
+        <input type="text" id="skills" name="skills" placeholder="e.g., Python, JavaScript" required>
+
+        <label for="interests">Enter your interests:</label>
+        <input type="text" id="interests" name="interests" placeholder="e.g., Web Development, AI" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Logout Link -->
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
+
